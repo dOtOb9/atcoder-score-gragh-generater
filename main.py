@@ -25,7 +25,7 @@ ax.axhspan(ymin=2800, ymax=4000, color='red', alpha=0.2) # 赤色
 ax.set_ylim(bottom=0, top=max(max(df['performance']), max(df['rate']))*1.2)
 
 ax.set_title('AtCoder Score History')
-ax.legend(loc='lower right')
+ax.legend(loc='upper left')
 
 plt.savefig('./output/fig.png')
 plt.show()
