@@ -39,4 +39,3 @@ ax.legend(loc='upper left')
 plt.tight_layout()
 
 plt.savefig('./output/fig.png')
-plt.show()
